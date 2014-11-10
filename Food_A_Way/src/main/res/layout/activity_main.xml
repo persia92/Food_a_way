@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Welcome!"
+            android:textColor="#ffffffff"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:padding="25dp"/>
+
+
+        <Button
+            android:id="@+id/entry"
+            android:layout_height="100dp"
+            android:layout_width="230dp"
+            android:layout_below="@+id/welcome"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_back"
+            android:layout_margin="5dp"
+            android:textColor="#ffffffff"
+            android:text="Enter"
+            android:padding="25dp"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            />
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_height="100dp"
+            android:layout_width="230dp"
+            android:layout_below="@+id/entry"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_back"
+            android:layout_margin="5dp"
+            android:textColor="#ffffffff"
+            android:text="Login"
+            android:padding="25dp"
+            android:textStyle="bold"
+            android:textSize="32sp"
+          />
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_height="100dp"
+            android:layout_width="230dp"
+            android:layout_below="@+id/login"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_back"
+            android:textColor="#ffffffff"
+            android:layout_margin="5dp"
+            android:text="Register"
+            android:padding="25dp"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            />
+
+
+        </RelativeLayout>
+
+</LinearLayout>
